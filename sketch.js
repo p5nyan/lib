@@ -1,4 +1,3 @@
-/* jshint esversion: 8 */
 // noprotect
 
 function setup() {
@@ -10,4 +9,6 @@ function setup() {
 async function draw() {
   await sleep(1);
 
+  print(getDirection());
+  say(getDirection());
 }
